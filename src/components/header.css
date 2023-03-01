@@ -1,0 +1,18 @@
+/**
+ *
+ * header.css
+ * @author- Arshath
+ * @date- 01/03/2023
+ */
+
+header {
+    height: 90px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    border: none;
+    column-gap: 10px;
+    color: #fff;
+    background-color: #39AEBC;
+}

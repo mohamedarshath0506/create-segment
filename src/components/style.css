@@ -1,0 +1,134 @@
+/**
+ *
+ * style.css
+ * @author- Arshath
+ * @date- 01/03/2023
+ */
+
+.container {
+    display: flex;
+    justify-content: end;
+}
+i{
+    font-size: 22px;
+}
+.primay-btn {
+    flex: 1;
+    position: relative;
+}
+.primay-btn button {
+    position: absolute;
+    top: 45px;
+    left: 60px;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+    color: #EFEFEF;
+    background-color: #999999;
+}
+.application-container{
+    width: 500px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+}
+.header-cntent {
+    padding: 20px 30px;
+    background-color: #39AEBC;
+}
+header h1 {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    margin: 0;
+    color: #fff;
+}
+.application-content {
+    text-align: left;
+}
+form {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+form label {
+    text-align: left;
+}
+form input {
+    padding: 10px 10px;
+    border: 1px solid #B8BEC4;
+    border-radius: 5px;
+}
+::placeholder {
+    color: #C2CBD4;
+}
+.content {
+    padding: 0 0 0 20px;
+}
+.title {
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    justify-content: end;
+    padding: 0 30px 0 0;
+    column-gap: 20px;
+}
+
+.selector {
+    display: flex;
+    column-gap: 10px;
+    margin: 10px 0;
+}
+.selector h1 {
+    margin: 0;
+}
+.selector-btn {
+    padding: 0 15px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    color: #657A93;
+    background-color: #F2FBF9;
+}
+select {
+    width: 405px;
+    padding: 10px 10px;
+}
+.add-selector {
+    margin: 0 0 0 20px;
+}
+.add-schema {
+    margin: 20px 0 0 20px;
+}
+.add-schema span {
+    border-bottom: 3px solid;
+    font-weight: 700;
+    color: #5EC1A6;
+}
+footer {
+    padding: 20px 20px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    column-gap: 20px;
+    border: none;
+    width: 100%;
+    background-color: #F6F6F6;
+}
+.save-btn {
+    padding: 10px 10px;
+    color: #fff;
+    background-color: #41B494;
+    border: none;
+    border-radius: 5px;
+}
+.cancle-btn {
+    color: #DF7B9A;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+}
